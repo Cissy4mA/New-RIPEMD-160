@@ -27,7 +27,7 @@ C   = cycle_shift(S, 5);            % 新的 C 更新
 
 ### 2. 安全性分析结论与数据
 
-以下图表与数据均来自论文第五章（RIPEMD-160）与第六章（New-RIPEMD-160）。测试样本为对明文进行单比特改动后统计 256 / 512 / 1024 / 2048 次实验的平均值。
+测试样本为对明文进行单比特改动后统计 256 / 512 / 1024 / 2048 次实验的平均值。
 
 #### 2.1 Hash 值分布
 
@@ -144,7 +144,7 @@ In standard RIPEMD-160, `C` simply takes the previous `B`. The extra rotation in
 
 ### 2. Security analysis results and data
 
-The figures and tables below are taken from Chapters 5 (RIPEMD-160) and 6 (New-RIPEMD-160). Statistics are averaged over 256 / 512 / 1024 / 2048 trials after flipping a single plaintext bit.
+Statistics are averaged over 256 / 512 / 1024 / 2048 trials after flipping a single plaintext bit.
 
 #### 2.1 Hash-value distribution
 
